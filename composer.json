@@ -1,0 +1,22 @@
+{
+    "name": "sunriseintegration/etsy-api-v3-test",
+    "description": "A wrapper for Etsy's REST API V3 Testing",
+    "type": "package",
+    "require": {
+        "guzzlehttp/guzzle": "*",
+        "illuminate/support": "*",
+        "ext-oauth": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sunriseintegration\\EtsyApiV3Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "imadkahil1",
+            "email": "imad@teelaunch.com"
+        }
+    ]
+}
